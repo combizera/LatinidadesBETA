@@ -1,0 +1,24 @@
+:root {
+  /*Cores*/
+  --vinho-base: #6c3030;
+  --vinho-claro: #8b4d4d;
+  --vinho-clarissimo: #c38888;
+  --bege-base: #f2e9e1;
+  --bege-medio: #dfcdbd;
+  --bege-forte: #efe2d7;
+  --cinza: #7b7c7d;
+  --cinza-escuro: #1d1e1f;
+
+  /*Fontes*/
+}
+
+body {
+  background-color: var(--bege-base);
+}
+
+@font-face {
+  font-family: "Bodar";
+  src: url("./../bodar.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}

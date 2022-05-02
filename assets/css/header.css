@@ -1,0 +1,52 @@
+header {
+  background-color: var(--vinho-base);
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  margin-left: 5vw;
+}
+
+.logo img {
+  height: 50px;
+  max-width: 80%;
+}
+
+.cabecalho__nav {
+  margin-right: 5vw;
+  font-family: "Candara", sans-serif;
+  color: var(--bege-base);
+  font-size: 1.25rem;
+}
+
+.cabecalho__nav-item {
+  margin-left: 1rem;
+  padding: 0.5rem;
+}
+
+.cabecalho__nav-item:hover {
+  background-color: var(--bege-base);
+  color: var(--vinho-base);
+  transition: 0.2s;
+  border-radius: 4px;
+}
+
+#busca {
+  height: 25px;
+  border-radius: 10px;
+  border: none;
+  background-color: var(--bege-base);
+  width: 200px;
+}
+
+#busca:focus {
+  box-shadow: 0 0 0 0;
+  outline: 0;
+}
+
+#busca::placeholder {
+  color: var(--cinza-escuro);
+}
