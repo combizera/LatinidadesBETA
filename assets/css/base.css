@@ -6,14 +6,25 @@
   --bege-base: #f2e9e1;
   --bege-medio: #dfcdbd;
   --bege-forte: #efe2d7;
+  --cartao-perfil: #f8f5ec;
   --cinza: #7b7c7d;
   --cinza-escuro: #1d1e1f;
+  --texto-cor: #121313;
+  --texto-espacamento: ;
+}
 
-  /*Fontes*/
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
   background-color: var(--bege-base);
+  font-family: "Candara";
+}
+
+img {
+  max-width: 60%;
 }
 
 @font-face {
@@ -21,4 +32,28 @@ body {
   src: url("./../bodar.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
+}
+
+.comeback {
+  position: fixed;
+  left: 93vw;
+  top: 89vh;
+  padding: 0.8rem;
+  border-radius: 50%;
+  transition: 0.3s;
+}
+
+.comeback:hover {
+  background-color: var(--cinza);
+  background-image: url("./../icons/Caminho\ 297.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 10;
+}
+
+.comeback img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
 }

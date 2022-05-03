@@ -1,17 +1,3 @@
-html {
-  scroll-behavior: smooth;
-  overflow-x: hidden;
-}
-
-body {
-  background-color: var(--bege-base);
-  font-family: "Candara";
-}
-
-img {
-  max-width: 60%;
-}
-
 /*SEÇÃO 1*/
 
 .sec1 {
@@ -66,7 +52,7 @@ img {
   font-size: 1.5rem;
   font-weight: bold;
   color: var(--bege-base);
-  box-shadow: 0px 11px 10px -7px rgba(0, 0, 0, 0.35);
+  box-shadow: 0px 8px 10px -7px rgba(0, 0, 0, 0.35);
 }
 
 .sec1__link {
@@ -88,6 +74,7 @@ img {
 .sec2 {
   background-color: var(--bege-medio);
   padding: 0px 7.5%;
+  box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.3);
 }
 
 .sec2__grid {
@@ -107,7 +94,7 @@ img {
 .sec2__item {
   background-color: var(--cinza-escuro);
   border-radius: 20px;
-  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.3);
   color: var(--bege-base);
   margin-bottom: 1.5rem;
   padding-bottom: 1.5rem;
@@ -179,7 +166,7 @@ img {
   background-position: center;
   background-size: cover;
   border-radius: 20px;
-  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.3);
   margin-left: 7.5%;
   position: relative;
   top: 4rem;
@@ -190,7 +177,7 @@ img {
 .sec3__box {
   background-color: #fff;
   border-radius: 20px;
-  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.3);
   height: 30vw;
   margin-left: 22%;
   margin-top: 2rem;
@@ -315,60 +302,4 @@ img {
 .sec4__plataformas-sound p {
   position: relative;
   right: 10px;
-}
-
-/*FOOTER*/
-
-footer {
-  background-color: var(--vinho-base);
-  height: 110px;
-  padding: 1rem 7.5%;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-}
-
-footer p {
-  text-align: center;
-}
-
-.footer__infos {
-  color: var(--vinho-claro);
-  font-size: 0.8rem;
-}
-
-.footer__titulo {
-  color: var(--bege-base);
-  font-size: 1.2rem;
-  margin-bottom: 0.5rem;
-}
-
-.footer__infos p:hover {
-  color: var(--bege-medio);
-}
-
-.footer__info {
-  color: var(--vinho-claro);
-}
-
-.footer__sociais {
-  padding: 0px 4.5rem;
-}
-
-.footer__sociais ul {
-  display: flex;
-  justify-content: space-evenly;
-}
-
-.footer__sociais img {
-  max-width: 80%;
-}
-
-.footer__copy {
-  color: var(--bege-base);
-  text-align: center;
-  grid-column: 2;
-  position: relative;
-  top: 1rem;
-  border-top: 1px solid var(--bege-base);
-  padding-top: 0.5rem;
 }

@@ -12,8 +12,10 @@ vinho-clarissimo: #C38888;
 bege-base: #F2E9E1;
 bege-medio: #DFCDBD;
 bege-forte: #EFE2D7;
+cartao-perfil: #F8F5EC;
 cinza: #7B7C7D;
 cinza-escuro: #1D1E1F;
+texto: #121313;
 
 # --- Tipografia ---
 

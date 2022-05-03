@@ -12,23 +12,26 @@
     <link rel="stylesheet" href="./assets/css/base.css">
     <link rel="stylesheet" href="./assets/css/header.css">
     <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/footer.css">
     <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
     <title>Início | Latinidades</title>
 </head>
 
 <body>
-    <header>
-        <a class="logo" href=""><img src="./assets/img/logo.svg" alt="Logo Latinidades"> </a>
+    <header id="cabecalho">
+        <a class="logo" href="index.html"><img src="./assets/img/logo.svg" alt="Logo Latinidades"> </a>
 
         <input type="text" name="" id="busca" placeholder="Pesquisar artigos">
         <nav class="cabecalho__nav">
-            <a href="#" class="cabecalho__nav-item">artigos</a>
-            <a href="#" class="cabecalho__nav-item">podcast</a>
+            <a href="artigos.html" class="cabecalho__nav-item">artigos</a>
+            <a href="#caixa-art-pod" class="cabecalho__nav-item">podcast</a>
             <a href="#secao3" class="cabecalho__nav-item">quem somos</a>
-            <a href="#" class="cabecalho__nav-item">contato</a>
+            <a href="#rodape" class="cabecalho__nav-item">contato</a>
         </nav>
     </header>
     <main>
+        <a href="#cabecalho" class="comeback">
+            <img src="./assets/icons/comeback.svg" alt="Retornar ao início"></a>
         <section class="sec1">
             <div class="sec1__titulo">
                 <h1 class="sec1__h1">Latinidades</h1>
@@ -96,7 +99,7 @@
 
         <section class="sec4">
             <span class="sec4__divisao"></span>
-            <div class="sec4__box">
+            <div class="sec4__box" id="caixa-art-pod">
                 <div class="sec4__artigos">
                     <h2>Artigos</h2>
                     <img src="./assets/icons/divisor.svg" alt="Divisória">
@@ -164,7 +167,7 @@
         </section>
     </main>
 
-    <footer>
+    <footer id="rodape">
         <div class="footer__infos">
             <p class="footer__titulo">INFORMAÇÕES</p>
             <ul>

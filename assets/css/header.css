@@ -7,7 +7,7 @@ header {
 }
 
 .logo {
-  margin-left: 5vw;
+  margin-left: 6%;
 }
 
 .logo img {
@@ -35,10 +35,11 @@ header {
 }
 
 #busca {
-  height: 25px;
   border-radius: 10px;
   border: none;
   background-color: var(--bege-base);
+  height: 25px;
+  padding-left: 0.5rem;
   width: 200px;
 }
 
@@ -49,4 +50,22 @@ header {
 
 #busca::placeholder {
   color: var(--cinza-escuro);
+}
+
+.cabecalho__artigo {
+  display: grid;
+  grid-template-columns: auto 1fr 1fr 1fr;
+  gap: 0.5rem;
+  align-items: center;
+  margin-right: 7.5%;
+}
+
+.cabecalho__artigo p {
+  font-size: 1.25rem;
+  color: var(--bege-base);
+  font-weight: 100;
+}
+
+.cabecalho__artigo img {
+  max-width: 30px;
 }

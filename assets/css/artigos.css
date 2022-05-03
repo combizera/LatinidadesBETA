@@ -1,0 +1,137 @@
+main {
+  display: grid;
+  grid-template-columns: 75% auto;
+}
+
+.cartao__autor {
+  background-color: var(--cartao-perfil);
+  border-radius: 20px;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
+  display: grid;
+  grid-template-columns: 50px 1fr;
+  margin: 1.5rem 7.5%;
+  grid-template-rows: 1fr 1fr;
+  padding: 0.5rem;
+  width: 23vw;
+  height: 8.5vh;
+}
+
+.cartao__autor img {
+  max-width: 50px;
+  border-radius: 50%;
+}
+
+.autor {
+  padding: 0.5rem 0.7rem;
+  font-size: 0.8rem;
+}
+
+.cartao__dados {
+  grid-column: 2;
+  padding: 0rem 0.7rem;
+  display: flex;
+  color: var(--cinza);
+  font-size: 0.8rem;
+  grid-row: 2;
+}
+
+.cartao__dados span {
+  width: 4px;
+  background-color: var(--cinza);
+  border-radius: 10px;
+  display: inline-flex;
+  height: 4px;
+  margin: 0.3rem 0.4rem;
+}
+
+.cartao__ouca {
+  color: #1a8917;
+  display: flex;
+}
+
+.cartao__ouca p {
+  padding: 0px 0.4rem;
+}
+
+.cartao__ouca img {
+  margin-left: 0.1rem;
+}
+
+.artigo h1 {
+  color: var(--cinza-escuro);
+  font-family: "Bodar";
+  font-size: 2.5rem;
+  line-height: 2.5rem;
+}
+
+.artigo__titulo p {
+  color: var(--cinza);
+  font-size: 1.5rem;
+  font-style: italic;
+}
+
+.base {
+  color: var(--texto-cor);
+  font-family: "Segoe UI", sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.75rem;
+  margin: 2rem 0px;
+  padding-left: 7.5%;
+}
+
+.base h2 {
+  color: var(--vinho-base);
+  font-weight: bold;
+  font-size: 1.25rem;
+  margin-top: 2rem;
+}
+
+.base img {
+  max-width: 30%;
+}
+
+.artigo__texto {
+  padding-right: 1rem;
+}
+
+.marcatexto {
+  background-color: #b8161670;
+}
+
+.span__a {
+  color: #b81616;
+  font-weight: bold;
+}
+
+.span__a:hover {
+  text-decoration: underline;
+}
+
+.artigo__citacao1 {
+  width: 100%;
+  background-color: var(--cinza-escuro);
+  height: 8rem;
+  text-align: center;
+  color: var(--bege-base);
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.artigo__citacao1-txt {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 0px 10%;
+  font-size: 1.25rem;
+}
+
+.artigo__citacao1-autor {
+  font-family: "Dancing Script";
+  margin-top: 1rem;
+  font-size: 1.5rem;
+}
+
+.quote {
+  font-family: "Arial", serif;
+  font-size: 2rem;
+}
