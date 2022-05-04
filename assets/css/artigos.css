@@ -108,14 +108,13 @@ main {
 }
 
 .artigo__citacao1 {
-  width: 100%;
   background-color: var(--cinza-escuro);
+  color: var(--bege-base);
+  flex-direction: column;
   height: 8rem;
   text-align: center;
-  color: var(--bege-base);
   padding: 2rem;
   display: flex;
-  flex-direction: column;
   justify-content: center;
 }
 
@@ -134,4 +133,114 @@ main {
 .quote {
   font-family: "Arial", serif;
   font-size: 2rem;
+}
+
+.artigo__imagem-legenda {
+  align-items: center;
+  color: var(--cinza);
+  display: flex;
+  flex-direction: column;
+  font-size: 0.8rem;
+  margin-top: 1rem;
+}
+
+.artigo__imagem-legenda p {
+  margin-top: -1rem;
+}
+
+.artigo__imagem-legenda img {
+  max-width: 70%;
+}
+
+.artigo__imagem-legenda a {
+  font-weight: 600;
+}
+
+.artigo__imagem-legenda a:hover {
+  color: rgb(108, 108, 198);
+  text-decoration: underline;
+}
+
+.citacao2 {
+  display: flex;
+  font-size: 2rem;
+  left: 10%;
+  position: relative;
+  width: 85%;
+}
+
+.citacao2__detalhe {
+  background-color: var(--vinho-base);
+  display: inline-flex;
+  height: 110%;
+  left: -2rem;
+  position: absolute;
+  width: 0.8rem;
+}
+
+.share {
+  background-color: var(--bege-forte);
+  font-size: 1.125rem;
+  margin: 0px 0px 1rem 20%;
+  width: 65%;
+  padding: 1rem;
+  border-top: 0.5rem solid var(--vinho-base);
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.15);
+}
+
+.share span {
+  font-weight: bold;
+}
+
+#newsletter__email {
+  width: 220px;
+  height: 30px;
+  background-color: #596800;
+  border: none;
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-top: 4px;
+  color: #a7af75;
+}
+
+#newsletter__email {
+  margin-top: 0.7rem;
+  width: 250px;
+  height: 2rem;
+  background-color: #f5efe8;
+  border: none;
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-top: 4px;
+  color: var(--cinza-escuro);
+}
+
+#newsletter__email:focus {
+  box-shadow: 0 0 0 0;
+  outline: 0;
+}
+
+#newsletter__email::placeholder {
+  color: var(--cinza);
+  font-size: 1rem;
+  font-family: "candara";
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.btn {
+  background-color: var(--vinho-base);
+  border: none;
+  border-radius: 10px;
+  color: #f5efe8;
+  font-family: "candara";
+  padding: 5px 10px;
+  border-color: #1a8917;
+  border: 5px solid #f5efe8;
+  margin-left: -1.3rem;
+  border-top: 6px solid #f5efe8;
 }
