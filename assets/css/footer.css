@@ -4,6 +4,8 @@ footer {
   padding: 1rem 7.5%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  position: relative;
+  margin-top: 5rem;
 }
 
 footer p {

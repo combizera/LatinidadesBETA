@@ -1,7 +1,13 @@
 main {
   display: grid;
   grid-template-columns: 75% auto;
+  position: relative;
+  top: 50px;
 }
+
+/* .main__capsula {
+  box-shadow: 5px 0px 19px -8px #000000;
+} */
 
 .cartao__autor {
   background-color: var(--cartao-perfil);
@@ -178,7 +184,7 @@ main {
   width: 0.8rem;
 }
 
-.share {
+.news {
   background-color: var(--bege-forte);
   font-size: 1.125rem;
   margin: 0px 0px 1rem 20%;
@@ -190,7 +196,7 @@ main {
   box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.15);
 }
 
-.share span {
+.news span {
   font-weight: bold;
 }
 
@@ -235,12 +241,20 @@ main {
 .btn {
   background-color: var(--vinho-base);
   border: none;
+  border: 5px solid #f5efe8;
   border-radius: 10px;
+  border-top: 6px solid #f5efe8;
   color: #f5efe8;
   font-family: "candara";
   padding: 5px 10px;
-  border-color: #1a8917;
-  border: 5px solid #f5efe8;
   margin-left: -1.3rem;
-  border-top: 6px solid #f5efe8;
+  font-weight: bold;
+}
+
+.share {
+  display: flex;
+  margin: 0px 0px 1rem 7.5%;
+  font-weight: bold;
+  font-size: 1.125rem;
+  gap: 1rem;
 }
