@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="186" viewBox="0 0 1920 186">
+  <defs>
+    <filter id="bg-contact">
+      <feOffset dy="-1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-color="#1d1e1f" flood-opacity="0.502" result="color"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur"/>
+      <feComposite operator="in" in="color"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g data-type="innerShadowGroup">
+    <path id="bg-contact-2" data-name="bg-contact" d="M0,0H1920V126.6L0,186Z" fill="#dfcdbd"/>
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#bg-contact)">
+      <path id="bg-contact-3" data-name="bg-contact" d="M0,0H1920V126.6L0,186Z" fill="#fff"/>
+    </g>
+  </g>
+</svg>

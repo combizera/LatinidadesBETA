@@ -24,7 +24,17 @@ body {
 }
 
 img {
-  max-width: 60%;
+  max-width: 100%;
+  display: block;
+}
+
+h1::selection,
+h2::selection,
+h3::selection,
+h4::selection,
+p::selection {
+  background-color: #7d4747;
+  color: #fff;
 }
 
 @font-face {

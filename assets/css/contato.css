@@ -1,0 +1,14 @@
+.main__contato {
+  background-image: url("./../img/bg-contact.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100vh;
+}
+
+.contact__form {
+  margin: 0rem 15%;
+}
+
+.contact__form-desc {
+  margin: 1rem;
+}

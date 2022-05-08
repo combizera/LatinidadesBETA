@@ -1,6 +1,14 @@
 header {
   background-color: var(--vinho-base);
   height: 50px;
+  display: flex !important;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-fixed {
+  background-color: var(--vinho-base);
+  height: 50px;
   display: flex;
   align-items: center;
   justify-content: space-between;

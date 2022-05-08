@@ -1,8 +1,8 @@
 footer {
   background-color: var(--vinho-base);
-  height: 110px;
+  height: 130px;
   padding: 1rem 7.5%;
-  display: grid;
+  display: grid !important;
   grid-template-columns: 1fr 1fr 1fr;
   position: relative;
   margin-top: 5rem;
@@ -42,6 +42,7 @@ footer p {
 
 .footer__sociais img {
   max-width: 80%;
+  margin-top: 0.5rem;
 }
 
 .footer__copy {
