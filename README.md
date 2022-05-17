@@ -59,4 +59,12 @@ Projeto {
 road-map do site/projeto, coloquei o nome em pt-br pra ser de fácil entendimento
 }
 
-# --- abc ---
+# --- Ícones ---
+
+Facebook -> "\ea90"
+Whatsapp -> "\ea93"
+Spotify -> "\ea94"
+Telegram -> "\ea95"
+Twitter -> "\ea96"
+Youtube -> "\ea9d"
+Soundcloud -> "\eac3"

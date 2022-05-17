@@ -30,13 +30,30 @@
     </nav>
   </header>
   <main class="main__contato">
-    <div class="bg">
-      <section class="contact__form">
-        <div class="contact__form-desc">
-          <p>Tem alguma dúvida, sugestão ou crítica ao projeto?</p>
-          <p>Nosso time - de um homem só - pode ajudar! Preencha o formulário abaixo, em breve retornaremos o contato.</p>
-        </div>
-      </section>
+    <img src="./assets/img/bg-contact.svg" alt="Background Contatato">
+    <section class="contact__form">
+      <div class="contact__form-desc">
+        <p id="form__titulo">Tem alguma dúvida, sugestão ou crítica ao projeto?</p>
+        <p>Nosso time - de um homem só - pode ajudar! Preencha o formulário abaixo, em breve retornaremos o contato.</p>
+      </div>
+      <div class="formulario">
+        <form action="./">
+          <label for="form__nome">Nome</label>
+          <input type="text" id="form__nome" required>
+
+          <label for="form__email">Email</label>
+          <input type="email" id="form__email" required>
+
+          <label for="form__mensagem">Mensagem</label>
+          <input type="text" id="form__mensagem" required>
+          <div class="form__checkbox">
+            <input type="checkbox" name="termos" value="aceito">
+            <label for="termos">Receber novidades e conteúdos gratuitos do Latinidades</label>
+          </div>
+
+          <button class="form__btn">Enviar</button>
+        </form>
+    </section>
     </div>
 
   </main>

@@ -23,6 +23,10 @@ body {
   font-family: "Candara";
 }
 
+button {
+  text-transform: uppercase;
+}
+
 img {
   max-width: 100%;
   display: block;
