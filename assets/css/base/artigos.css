@@ -226,11 +226,11 @@
   font-family: "candara";
 }
 
-.btn:hover {
+.btnMUDAR:hover {
   cursor: pointer;
 }
 
-.btn {
+.btnMUDAR {
   background-color: var(--vinho-base);
   border: none;
   border: 5px solid #f5efe8;

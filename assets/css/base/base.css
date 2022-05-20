@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
 :root {
   /*Cores*/
   --vinho-base: #6c3030;
@@ -10,7 +12,8 @@
   --cinza: #7b7c7d;
   --cinza-escuro: #1d1e1f;
   --texto-cor: #121313;
-  --texto-espacamento: ;
+  --candara: "Candara", sans-serif;
+  --libreFr: "Libre Franklin", Arial, Helvetica, sans-serif;
 }
 
 html {
@@ -20,7 +23,7 @@ html {
 
 body {
   background-color: var(--bege-base);
-  font-family: "Candara";
+  font-family: var(--candara);
 }
 
 button {
@@ -48,6 +51,10 @@ p::selection {
   font-style: normal;
 }
 
+.borda {
+  border-radius: 4px;
+}
+
 .comeback {
   position: fixed;
   left: 93vw;
@@ -70,4 +77,8 @@ p::selection {
   margin-left: auto;
   margin-right: auto;
   max-width: 100%;
+}
+
+.btn {
+  text-transform: uppercase;
 }

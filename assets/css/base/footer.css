@@ -1,0 +1,82 @@
+/*Footer*/
+
+footer {
+  background-color: var(--vinho-claro);
+  color: var(--bege-base);
+  text-align: left;
+  font-family: var(--candara) !important;
+  font-size: 0.875rem !important;
+}
+
+.footer__home {
+  height: 160px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 1rem 5%;
+}
+
+.footer__artigo {
+  height: 170px;
+  z-index: 2;
+  padding: 3rem 5% 1rem 5%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.footer__tit {
+  font-family: var(--libreFr);
+  font-weight: 700;
+  font-size: 32px;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+}
+
+.footer__copy {
+  font-family: var(--candara);
+  font-size: 0.875rem;
+}
+
+.footer__sociais {
+  transition: 0.3s;
+  padding: 0.5rem;
+}
+
+.sociais-artigo {
+  padding: 0.5rem;
+}
+
+.sociais-artigo:hover {
+  background-color: var(--bege-base);
+  color: var(--vinho-claro);
+}
+
+.footer__sociais-list ul {
+  display: flex;
+}
+
+.footer__sociais-list li {
+  display: flex;
+  margin: 0.5rem 0px;
+  z-index: 10;
+}
+
+.footer__sociais-list span {
+  font-size: 1.5rem;
+}
+
+.footer__sociais-list p {
+  font-size: 0.875rem;
+  text-align: left;
+  padding-right: 2rem;
+}
+
+#footer__subtit {
+  font-family: var(--libreFr);
+  font-weight: bold;
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.footer__cont div {
+  margin-bottom: 1rem;
+}

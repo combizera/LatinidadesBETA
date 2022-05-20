@@ -1,0 +1,124 @@
+/* Celulares */
+@media (max-width: 600px) {
+  #btn_mobile {
+    display: block;
+  }
+
+  .logo img {
+    height: 40px;
+  }
+
+  #btn__mobile {
+    padding: 0.5rem 1rem;
+    display: flex;
+    border: none;
+    background: none;
+    cursor: pointer;
+    color: var(--bege-base);
+    font-family: var(--candara);
+    font-weight: bold;
+  }
+
+  #cabecalho__nav {
+    margin-right: 5vw;
+    font-family: "Candara", sans-serif;
+    color: var(--bege-base);
+    font-size: 1.25rem;
+  }
+
+  .cabecalho__nav-item {
+    margin-left: 0rem;
+    padding: 0rem;
+  }
+
+  .cabecalho__nav-item:hover {
+    background-color: var(--bege-base);
+    color: var(--vinho-base);
+    transition: 0.2s;
+    border-radius: 4px;
+  }
+
+  .cabecalho__menu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: absolute;
+
+    width: 35%;
+    top: 50px;
+    right: 0px;
+    background-color: var(--vinho-base);
+    height: 0px;
+    transition: 0.6s;
+    z-index: 1000;
+
+    visibility: hidden;
+    overflow-y: hidden;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  #cabecalho__nav.active .cabecalho__menu {
+    visibility: visible;
+    height: calc(46vh - 50px);
+    overflow-y: auto;
+  }
+
+  .cabecalho__menu li {
+    margin: 0.5rem 0rem;
+  }
+  .hamburguer {
+    display: block;
+    border-top: 2px solid;
+    width: 20px;
+    margin-left: 5px;
+  }
+
+  .hamburguer::after,
+  .hamburguer::before {
+    content: "";
+    display: block;
+    width: 20px;
+    height: 2px;
+    background: currentColor;
+    margin-top: 5px;
+    transition: 0.3s;
+    position: relative;
+  }
+
+  #cabecalho__nav.active .hamburguer {
+    border-top-color: transparent;
+  }
+
+  #cabecalho__nav.active .hamburguer::after {
+    transform: rotate(-135deg);
+    top: -7px;
+  }
+
+  #cabecalho__nav.active .hamburguer::before {
+    transform: rotate(135deg);
+  }
+
+  /*Seção busca*/
+
+  #busca {
+    border-radius: 10px;
+    border: none;
+    background-color: var(--bege-base);
+    height: 25px;
+    padding-left: 0.5rem;
+    width: 200px;
+  }
+
+  #busca:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+  }
+
+  #busca::placeholder {
+    color: var(--cinza-escuro);
+    font-family: "Candara";
+  }
+}
