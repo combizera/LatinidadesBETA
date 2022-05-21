@@ -1,0 +1,31 @@
+/*Footer Mobile*/
+@media (max-width: 600px) {
+  .footer__home {
+    height: 420px;
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 1rem 5%;
+    position: relative;
+    top: 4rem;
+    gap: 2rem;
+  }
+
+  .footer__artigo {
+    height: 420px;
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 1rem 5%;
+    position: relative;
+    top: 1rem;
+    gap: 2rem;
+  }
+
+  .footer__tit {
+    font-size: 1.75rem;
+    margin-bottom: 0rem;
+  }
+
+  .sociais-artigo {
+    padding: 0.5rem;
+  }
+}

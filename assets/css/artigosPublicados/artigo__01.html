@@ -9,32 +9,39 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./assets/css/reset.css">
-  <link rel="stylesheet" href="./assets/css/base.css">
-  <link rel="stylesheet" href="./assets/css/header.css">
-  <link rel="stylesheet" href="./assets/css/artigos.css">
-  <link rel="stylesheet" href="./assets/css/aside-artigo.css">
-  <link rel="stylesheet" href="./assets/css/footer.css">
+  <link rel="stylesheet" href="./../../css/style.css">
   <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
   <title>Início | Latinidades</title>
 </head>
 
 <body>
-  <header class="header-fixed">
-    <a class="logo" href="index.html"><img src="./assets/img/logo.svg" alt="Logo Latinidades"> </a>
+  <header id="cabecalho" class="header__fixed">
+    <a class="logo" href="./../../../index.html"><img src="../../img/logo.svg" alt="Logo Latinidades"> </a>
 
     <input type="text" name="" id="busca" placeholder="Pesquisar artigos">
-    <nav class="cabecalho__artigo">
-      <p>compartilhe</p>
-      <a href="#"><img src="./assets/icons/fb.svg" alt="Botão para compartilhar no facebook"></a>
-      <a href="#"><img src="./assets/icons/fb.svg" alt="Botão para compartilhar no facebook"></a>
-      <a href="#"><img src="./assets/icons/fb.svg" alt="Botão para compartilhar no facebook"></a>
+    <nav id="cabecalho__nav">
+      <button id="btn__mobile" aria-controls="cabecalho__menu" aria-expanded="false" aria-haspopup="true" aria-label="Abrir Menu">Menu
+        <span class="hamburguer"></span>
+      </button>
+      <ul class="cabecalho__menu" role="menu">
+        <li>
+          <a href="artigos.html" class="cabecalho__nav-item">artigos</a>
+        </li>
+        <li>
+          <a href="#caixa-art-pod" class="cabecalho__nav-item">podcast</a>
+        </li>
+        <li>
+          <a href="#secao3" class="cabecalho__nav-item">quem somos</a>
+        </li>
+        <li><a href="contato.html" class="cabecalho__nav-item">contato</a></li>
+      </ul>
     </nav>
   </header>
 
   <main class="main__artigo">
     <div class="main__capsula">
       <section class="cartao__autor">
-        <img src="./assets/img/perfil2.jpg" alt="Foto de perfil do autor" class="cartao__perfil">
+        <img src="./../../img/perfil2.jpg" alt="Foto de perfil do autor" class="cartao__perfil">
         <div class="capsula">
           <div class="autor">
             <p>Ygor Gabriel Combi</p>
@@ -45,7 +52,7 @@
             <p>5 minutos de leitura</p>
             <span></span>
             <a href="#" class="cartao__ouca">
-              <img src="./assets/icons/play.svg" alt="Botão para ouvir o artigo">
+              <img src="./../../icons/play.svg" alt="Botão para ouvir o artigo">
               <p>Ouça</p>
             </a>
           </div>
@@ -83,7 +90,7 @@
               Parágrafo para explicar criação latinidades e objetivos
             </p>
             <div class="artigo__imagem-legenda">
-              <img src="./assets/img/fundo.jpg" alt="Teste">
+              <img src="./../../img/conteudo/fundo.jpg" alt="Teste">
               <p class="legenda">Nos dias de hoje, a arte andina ainda mostra-se viva. Foto: <a href="">www.google.com/imagens</a> </p>
             </div>
             <h2 class="subtitulo">Conclusão</h2>
@@ -122,7 +129,7 @@
     <aside>
       <div class="aside__perfil">
         <div class="aside__perfil-dados">
-          <img src="./assets/img/perfil2.jpg" alt="Foto de perfil do autor do texto">
+          <img src="./../../img/perfil2.jpg" alt="Foto de perfil do autor do texto">
           <div class="aside__perfil-dados-geral">
             <p id="aside__nome"><span class="bolinha-perfil"></span>Ygor Gabriel Combi</p>
             <div class="aside__perfil-dados-geral2">
@@ -139,32 +146,32 @@
         <a href="#" class="aside__conteudo">
           <div class="aside__conteudo-capsula">
             <div class="aside__conteudo-perfil">
-              <img src="./assets/img/pessoa-ficticia.png" alt="Foto de perfil da autora">
+              <img src="./../../img/pessoa-ficticia.png" alt="Foto de perfil da autora">
               <p>Winry Rockbell</p>
             </div>
             <p class="aside__conteudo-titulo">As veias seguem abertas? Ponderações necessárias</p>
           </div>
-          <img class="aside__conteudo-img" src="./assets/img/arte.jpg" alt="Capa do conteúdo">
+          <img class="aside__conteudo-img" src="./../../img/conteudo/arte.jpg" alt="Capa do conteúdo">
         </a>
         <a href="#" class="aside__conteudo">
           <div class="aside__conteudo-capsula">
             <div class="aside__conteudo-perfil">
-              <img src="./assets/img/pessoa-ficticia.png" alt="Foto de perfil da autora">
+              <img src="./../../img/pessoa-ficticia.png" alt="Foto de perfil da autora">
               <p>Winry Rockbell</p>
             </div>
             <p class="aside__conteudo-titulo">As veias seguem abertas? Ponderações necessárias</p>
           </div>
-          <img class="aside__conteudo-img" src="./assets/img/estudantes.jpg" alt="Capa do conteúdo">
+          <img class="aside__conteudo-img" src="./../../img/conteudo/estudantes.jpg" alt="Capa do conteúdo">
         </a>
         <a href="#" class="aside__conteudo">
           <div class="aside__conteudo-capsula">
             <div class="aside__conteudo-perfil">
-              <img src="./assets/img/pessoa-ficticia.png" alt="Foto de perfil da autora">
+              <img src="./../../img/pessoa-ficticia.png" alt="Foto de perfil da autora">
               <p>Winry Rockbell</p>
             </div>
             <p class="aside__conteudo-titulo">As veias seguem abertas? Ponderações necessárias</p>
           </div>
-          <img class="aside__conteudo-img" src="./assets/img/arte.jpg" alt="Capa do conteúdo">
+          <img class="aside__conteudo-img" src="./../../img/conteudo/fundo.jpg" alt="Capa do conteúdo">
         </a>
 
       </div>
@@ -173,51 +180,51 @@
   </main>
 
   <footer id="rodape">
-    <div class="footer__infos">
-      <p class="footer__titulo">INFORMAÇÕES</p>
-      <ul>
-        <li>
-          <a href="#">
-            <p>PROJETO</p>
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <p>QUEM SOMOS</p>
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <p>ARTIGOS</p>
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <p>PODCAST</p>
-          </a>
-        </li>
-      </ul>
-    </div>
-    <div class="footer__sociais">
-      <p class="footer__titulo">REDES SOCIAIS</p>
-      <ul>
-        <li><a href="#"><img src="./assets/icons/fb.svg" alt="Logotipo do Facebook"></a></li>
-        <li><a href="asda.com"><img src="./assets/icons/ttt.png" alt="Logotipo do Twitter"></a></li>
-        <li><a href="#"><img src="./assets/icons/yt.svg" alt="Logotipo do Youtube"></a></li>
-      </ul>
-    </div>
+    <footer class="footer__home">
+      <div class="footer__principal">
+        <p class="footer__tit">Latinidades</p>
+        <p class="footer__copy">Latinidades © 2022 - Todos os direitos reservados.</p>
+      </div>
 
-    <div class="footer__contato">
-      <p class="footer__titulo">CONTATO</p>
-      <p class="footer__info">ycombi349@gmail.com</p>
-      <p class="footer__info">(53) 99990-2079</p>
-    </div>
+      <div class="footer__sociais-list">
+        <p id="footer__subtit">SIGA-NOS</p>
+        <ul>
+          <li>
+            <a href=""><span class="icon-facebook sociais-artigo"></span></a>
+          </li>
+          <li>
+            <a href=""><span class="icon-instagram sociais-artigo"></span></a>
+          </li>
+          <li>
+            <a href=""><span class="icon-telegram sociais-artigo"></span></a>
+          </li>
+          <li>
+            <a href=""><span class="icon-twitter sociais-artigo"></span></a>
+          </li>
+          <li>
+            <a href=""><span class="icon-youtube sociais-artigo"></span></a>
+          </li>
+          <li>
+            <a href=""><span class="icon-soundcloud sociais-artigo"></span></a>
+          </li>
+        </ul>
 
-    <div class="footer__copy">
-      <p>Latinidades © 2022 - Todos os direitos reservados.</p>
-    </div>
-  </footer>
-  <script src="script.js"></script>
+        <p>Latinidades é um site de Recurso Educacionais Abertos (REA) criado pelo Ygor Combi, mestrando em História pela FURG. O projeto tem como finalidade auxiliar, professores e interessados em divulgar a América Latina. Tanto o podcast quanto os artigos são publicados semanalmente.</p>
+      </div>
+
+      <div class="footer__cont">
+        <div>
+          <p id="footer__subtit">AVISO</p>
+          <p class="footer__cont-p">Os conteúdos dos artigos publicados são de responsabilidade do(s) autor(es), não refletindo, necessariamente, a opinião dos editores do portal.</p>
+        </div>
+        <div>
+          <p id="footer__subtit">CONTATO</p>
+          <p class="footer__cont-p">latinidades@gmail.com</p>
+          <p class="">(53)99990-2079</p>
+        </div>
+      </div>
+    </footer>
+    <script src="script.js"></script>
 </body>
 
 </html>

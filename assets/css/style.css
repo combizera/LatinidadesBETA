@@ -8,5 +8,7 @@
 @import url("./base/main.css");
 @import url("./base/reset.css");
 @import url("./icons/iconStyle.css");
+@import url("./base/mobile/artigosMobile.css");
+@import url("./base/mobile/footerMobile.css");
 @import url("./base/mobile/headerMobile.css");
 @import url("./base/mobile/mainMobile.css");

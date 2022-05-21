@@ -1,6 +1,6 @@
 @media (max-width: 600px) {
   .sec1 {
-    height: calc(45vh - 50px);
+    height: calc(65vh - 50px);
   }
 
   .sec1 h1 {
@@ -85,21 +85,20 @@
     display: flex;
     flex-wrap: wrap;
     grid-template-columns: 1fr 1fr;
-    height: 450px;
+    height: 900px;
     margin: 0 7.5% -4rem 7.5%;
-    transform: translateY(-10vw);
     padding: 1rem 1rem 0px 0px;
     font-family: var(--candara);
     box-shadow: 0 3px 10px 0 rgb(0 0 0 / 30%);
   }
+
   .sec4__box h2 {
-    color: var(--bege-base);
-    font-family: Bodar;
     font-size: 2rem;
   }
+
   .sec4__box img {
     transform: scale(0.4);
-    margin-top: -5%;
+    margin-top: -4%;
     margin-bottom: 0rem;
   }
   .sec4__box p {
@@ -109,52 +108,32 @@
     line-height: 1.25rem;
   }
   .sec4__box li {
-    display: flex;
-    padding-left: 10%;
-    margin-bottom: 1.5rem;
-    align-items: center;
+    padding-left: 1rem;
+    margin-bottom: 1rem;
   }
 
   .sec4__artigos {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    padding-left: 0.1rem;
+    padding-left: 0rem;
   }
+
+  .sec4__artigos a {
+    border-radius: 5px;
+    padding: 0.75rem;
+    font-size: 1.125rem;
+    width: 50%;
+    margin-bottom: 2rem;
+  }
+
   .bolinha {
     height: 5px;
     width: 5px;
     min-width: 5px;
   }
-  .sec4__podcast {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-  }
+
   .sec4__divisao {
-    background-color: var(--bege-base);
-    display: inline-flex;
-    position: relative;
-    height: 350px;
-    left: 51%;
-    width: 1px;
-    z-index: 2;
-    top: 18rem;
+    display: none;
   }
-  .sec4__artigos a {
-    background-color: var(--bege-base);
-    border-radius: 10px;
-    padding: 1rem;
-    margin-top: 1rem;
-    font-weight: 700;
-    text-align: center;
-    font-size: 1.2rem;
-    transition: 0.2s;
-    width: 30%;
-  }
-  .sec4__artigos a:hover {
-    transform: scale(1.05);
-  }
+
   .sec4__plataformas {
     width: 70%;
   }
@@ -165,28 +144,7 @@
     justify-items: center;
   }
 
-  .sec4__plataformas span {
-    font-size: 1.8rem;
-    color: var(--bege-base);
-    padding: 0.5rem;
-  }
-
-  .sec4__plataformas span:hover {
-    background-color: var(--bege-base);
-    color: var(--cinza-escuro);
-  }
-  .sec4__plataformas-sound p {
-    position: relative;
-    right: 10px;
-  }
-
   .sec4__artigos::after {
-    width: 0.5px;
-    height: 250px;
-    background-color: var(--bege-base);
-    content: "";
-    position: relative;
-    left: 55%;
-    top: -50%;
+    display: none;
   }
 }

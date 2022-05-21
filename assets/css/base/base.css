@@ -44,6 +44,11 @@ p::selection {
   color: #fff;
 }
 
+footer p::selection {
+  background-color: var(--cinza-escuro);
+  color: #fff;
+}
+
 @font-face {
   font-family: "Bodar";
   src: url("./../bodar.ttf") format("truetype");
