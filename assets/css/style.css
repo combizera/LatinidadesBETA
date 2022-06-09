@@ -1,14 +1,20 @@
-@import url("./base/artigos.css");
-@import url("./base/artigosDestaque.css");
-@import url("./base/aside-artigo.css");
-@import url("./base/base.css");
-@import url("./base/contato.css");
-@import url("./base/footer.css");
-@import url("./base/header.css");
-@import url("./base/main.css");
-@import url("./base/reset.css");
+/*Global*/
+@import url("./base//global/base.css");
+@import url("./base//global/contato.css");
+@import url("./base//global/footer.css");
+@import url("./base//global/header.css");
+@import url("./base/global/reset.css");
 @import url("./icons/iconStyle.css");
+
+/*Mobile*/
 @import url("./base/mobile/artigosMobile.css");
 @import url("./base/mobile/footerMobile.css");
 @import url("./base/mobile/headerMobile.css");
 @import url("./base/mobile/mainMobile.css");
+
+/*Geralzão*/
+@import url("./base/artigos.css");
+@import url("./base/artigosDestaque.css");
+@import url("./base/aside-artigo.css");
+@import url("./base/main.css");
+@import url("./base/apoie.css");

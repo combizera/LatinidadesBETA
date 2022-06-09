@@ -3,7 +3,7 @@ header {
   height: 50px;
   display: flex !important;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .header__fixed {
@@ -13,14 +13,14 @@ header {
 }
 
 .logo img {
-  height: 50px;
+  height: 45px;
   max-width: 80%;
+  margin-left: 50px;
 }
 
 #cabecalho__nav {
-  font-family: "Candara", sans-serif;
   color: var(--bege-base);
-  font-size: 1.25rem;
+  margin-right: 50px;
 }
 
 .cabecalho__nav-item {
@@ -31,7 +31,7 @@ header {
 .cabecalho__nav-item:hover {
   background-color: var(--bege-base);
   color: var(--vinho-base);
-  transition: 0.2s;
+  transition: 0.3s;
   border-radius: 4px;
 }
 

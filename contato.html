@@ -5,105 +5,144 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Projeto com base em Recursos Educacionais Abertos sobre América Latina. Artigos e podcast semanais">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./assets/css/reset.css">
-  <link rel="stylesheet" href="./assets/css/base.css">
-  <link rel="stylesheet" href="./assets/css/header.css">
-  <link rel="stylesheet" href="./assets/css/contato.css">
-  <link rel="stylesheet" href="./assets/css/footer.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
   <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
-  <title>Início | Latinidades</title>
+  <title>Contato | Latinidades</title>
 </head>
 
 <body>
   <header id="cabecalho">
-    <a class="logo" href="index.html"><img src="./assets/img/logo.svg" alt="Logo Latinidades"> </a>
-
-    <input type="text" name="" id="busca" placeholder="Pesquisar artigos">
-    <nav class="cabecalho__nav">
-      <a href="artigos.html" class="cabecalho__nav-item">artigos</a>
-      <a href="#caixa-art-pod" class="cabecalho__nav-item">podcast</a>
-      <a href="#secao3" class="cabecalho__nav-item">quem somos</a>
-      <a href="#rodape" class="cabecalho__nav-item">contato</a>
+    <a class="logo" href="index"><img src="./assets/img/logo.svg" alt="Logo Latinidades" width="100%" height="100%"> </a>
+    <nav id="cabecalho__nav" aria-label="primária" class="f2-md">
+      <button id="btn__mobile" aria-controls="cabecalho__menu" aria-expanded="false" aria-haspopup="true" aria-label="Abrir Menu">Menu
+        <span class="hamburguer"></span>
+      </button>
+      <ul class="cabecalho__menu" role="menu">
+        <li>
+          <a href="artigos" class="cabecalho__nav-item">artigos</a>
+        </li>
+        <li>
+          <a href="#caixa-art-pod" class="cabecalho__nav-item">podcast</a>
+        </li>
+        <li>
+          <a href="#secao3" class="cabecalho__nav-item">quem somos</a>
+        </li>
+        <li><a href="contato" class="cabecalho__nav-item">contato</a></li>
+      </ul>
     </nav>
   </header>
+
   <main class="main__contato">
     <img src="./assets/img/bg-contact.svg" alt="Background Contatato">
-    <section class="contact__form">
-      <div class="contact__form-desc">
-        <p id="form__titulo">Tem alguma dúvida, sugestão ou crítica ao projeto?</p>
-        <p>Nosso time - de um homem só - pode ajudar! Preencha o formulário abaixo, em breve retornaremos o contato.</p>
-      </div>
-      <div class="formulario">
-        <form action="./">
-          <label for="form__nome">Nome</label>
-          <input type="text" id="form__nome" required>
+    <div class="contact__grid">
+      <section class="contact__form contact__base">
+        <div class="contact__form-desc">
+          <p class="form__titulo">Tem alguma dúvida, sugestão ou crítica ao projeto?</p>
+          <p>Nosso time - de um homem só - pode ajudar! Preencha o formulário abaixo, em breve retornaremos o contato.</p>
+        </div><br>
+        <div class="formulario">
+          <form action="./">
+            <div class="formulario__box">
+              <input type="text" id="form__nome" name="form__nome" required>
+              <label class="formulario__label" for="form__nome">Nome</label>
+            </div><br>
 
-          <label for="form__email">Email</label>
-          <input type="email" id="form__email" required>
+            <div class="formulario__box">
+              <input type="email" id="form__email" name="form__email" required>
+              <label class="formulario__label" for="form__email">Email</label>
+            </div><br>
 
-          <label for="form__mensagem">Mensagem</label>
-          <input type="text" id="form__mensagem" required>
-          <div class="form__checkbox">
-            <input type="checkbox" name="termos" value="aceito">
-            <label for="termos">Receber novidades e conteúdos gratuitos do Latinidades</label>
+            <div class="formulario__box">
+              <input type="text" id="form__mensagem" name="form__mensagem" required>
+              <label class="formulario__label" for="form__mensagem">Mensagem</label>
+            </div><br>
+
+            <div class="form__checkbox">
+              <input type="checkbox" name="termos" value="aceito">
+              <label for="termos">Receber novidades e conteúdos gratuitos</label>
+            </div>
+
+            <input type="submit" name="submit" id="submit" class="form__btsn"></input>
+          </form>
+      </section>
+      <div>
+        <section class="contact__horarios contact__base">
+          <div class="contact__form-desc">
+            <p class="form__titulo">Horário de Atendimento</p>
+            <p>De segunda a sexta, das 8h às 20h, aos sábados das 8h às 13h (exceto feriados).</p>
           </div>
-
-          <button class="form__btn">Enviar</button>
-        </form>
-    </section>
+          <div class="contact__meios">
+            <span></span>
+            <ul>
+              <li>
+                <p class="contact__meios-t">Whatsapp</p>
+                <p>(53) 99990-2079</p>
+              </li>
+              <li>
+                <p class="contact__meios-t">Email</p>
+                <p>contato@latinidades.com.br</p>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <img src="./assets/img/imgcontato.svg" alt="">
+      </div>
+    </div>
+    </div>
+    <div class="gambs">
+      <p>sa</p>
     </div>
 
   </main>
 
-  <footer id="rodape">
-    <div class="footer__infos">
-      <p class="footer__titulo">INFORMAÇÕES</p>
-      <ul>
-        <li>
-          <a href="#">
-            <p>PROJETO</p>
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <p>QUEM SOMOS</p>
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <p>ARTIGOS</p>
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <p>PODCAST</p>
-          </a>
-        </li>
-      </ul>
-    </div>
-    <div class="footer__sociais">
-      <p class="footer__titulo">REDES SOCIAIS</p>
-      <ul>
-        <li><a href="#"><img src="./assets/icons/fb.svg" alt="Logotipo do Facebook"></a></li>
-        <li><a href="asda.com"><img src="./assets/icons/ttt.png" alt="Logotipo do Twitter"></a></li>
-        <li><a href="#"><img src="./assets/icons/yt.svg" alt="Logotipo do Youtube"></a></li>
-      </ul>
+  <footer class="footer__home">
+    <div class="footer__principal">
+      <p class="footer__tit">Latinidades</p>
+      <p class="footer__copy">Latinidades © 2022 - Todos os direitos reservados.</p>
     </div>
 
-    <div class="footer__contato">
-      <p class="footer__titulo">CONTATO</p>
-      <p class="footer__info">ycombi349@gmail.com</p>
-      <p class="footer__info">(53) 99990-2079</p>
+    <div class="footer__sociais-list">
+      <p id="footer__subtit">SIGA-NOS</p>
+      <ul>
+        <li>
+          <a href=""><span class="icon-facebook sociais-artigo"></span></a>
+        </li>
+        <li>
+          <a href=""><span class="icon-instagram sociais-artigo"></span></a>
+        </li>
+        <li>
+          <a href=""><span class="icon-telegram sociais-artigo"></span></a>
+        </li>
+        <li>
+          <a href=""><span class="icon-twitter sociais-artigo"></span></a>
+        </li>
+        <li>
+          <a href=""><span class="icon-youtube sociais-artigo"></span></a>
+        </li>
+        <li>
+          <a href=""><span class="icon-soundcloud sociais-artigo"></span></a>
+        </li>
+      </ul>
+
+      <p>Latinidades é um site de Recurso Educacionais Abertos (REA) criado pelo Ygor Combi, mestrando em História pela FURG. O projeto tem como finalidade auxiliar, professores e interessados em divulgar a América Latina. Tanto o podcast quanto os artigos são publicados semanalmente.</p>
     </div>
 
-    <div class="footer__copy">
-      <p>Latinidades © 2022 - Todos os direitos reservados.</p>
+    <div class="footer__cont">
+      <div>
+        <p id="footer__subtit">AVISO</p>
+        <p class="footer__cont-p">Os conteúdos dos artigos publicados são de responsabilidade do(s) autor(es), não refletindo, necessariamente, a opinião dos editores do portal.</p>
+      </div>
+      <div>
+        <p id="footer__subtit">CONTATO</p>
+        <p class="footer__cont-p">latinidades@gmail.com</p>
+        <p class="">(53)99990-2079</p>
+      </div>
     </div>
   </footer>
-  <script src="script.js"></script>
 </body>
 
 </html>

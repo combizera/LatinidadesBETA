@@ -5,28 +5,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Primeiro site de Recursos Educacionais Abertos sobre América Latina">
+    <meta name="description" content="Projeto com base em Recursos Educacionais Abertos sobre América Latina. Artigos e podcast semanais">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&family=Libre+Franklin:wght@100;400;700&family=Oregano:ital@0;1&display=swap" rel="stylesheet">
     <link rel="sicon" href="./favicon.ico" type="image/x-icon">
     <title>Início | Latinidades</title>
 </head>
 
 <body>
     <header id="cabecalho">
-        <a class="logo" href="index.html"><img src="./assets/img/logo.svg" alt="Logo Latinidades"> </a>
-
-        <input type="text" name="" id="busca" placeholder="Pesquisar artigos">
-        <nav id="cabecalho__nav">
+        <a class="logo" href="index"><img src="./assets/img/logo.svg" alt="Logo Latinidades" width="100%" height="100%"> </a>
+        <nav id="cabecalho__nav" aria-label="primária" class="f2-md">
             <button id="btn__mobile" aria-controls="cabecalho__menu" aria-expanded="false" aria-haspopup="true" aria-label="Abrir Menu">Menu
                 <span class="hamburguer"></span>
             </button>
             <ul class="cabecalho__menu" role="menu">
                 <li>
-                    <a href="artigos.html" class="cabecalho__nav-item">artigos</a>
+                    <a href="artigos" class="cabecalho__nav-item">artigos</a>
                 </li>
                 <li>
                     <a href="#caixa-art-pod" class="cabecalho__nav-item">podcast</a>
@@ -34,27 +34,30 @@
                 <li>
                     <a href="#secao3" class="cabecalho__nav-item">quem somos</a>
                 </li>
-                <li><a href="contato.html" class="cabecalho__nav-item">contato</a></li>
+                <li><a href="contato" class="cabecalho__nav-item">contato</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
         <section aria-label="Introdução ao site" class="sec1">
-            <div class="sec1__titulo">
-                <h1 class="sec1__h1">Latinidades</h1>
-                <p class="sec1__quote">"Educando sob a perspectiva do outro"</p>
+            <div class="sec1__tit">
+                <h1 class="f1-gr deg-base">LATINIDADES</h1>
+                <p class="sec1__quote">"Educação (re)compartilhada"</p>
             </div>
             <div class="sec1__grid">
-                <div class="sec1__txt">
-                    <p>Primeiro site colaborativo de Recursos Educacionais Abertos sobre à Pátria Grande. Assine nossa newsletter para não perder as novidades semanais postadas aqui!</p>
+                <div class="sec1__txt f2-md">
+                    <p>Primeiro site colaborativo de <strong>Recursos Educacionais Abertos</strong> sobre a América Latina.
+                        <Br>Saiba como funciona o projeto e também assine nossa newsletter para não perder as <strong>novidades semanais!</strong>
+                    </p>
                     <div class="sec1__link">
-                        <a href="#" class="sec1__cta borda">Inscreva-se</a>
+                        <a href="#" class="btn sec1__cta borda">Descubra</a>
                     </div>
                 </div>
                 <div class="sec1__img">
                     <img src="./assets/icons/imgMain.svg" alt="Ilustração de um homem lendo um livro" width="400px" height="380px">
                 </div>
+
             </div>
         </section>
     </main>
@@ -66,50 +69,48 @@
                 <div class="sec2__img">
                     <img src="./assets/img/conteudo/arte.jpg" alt="Foto de uma mulher latinoamericana" width="300px" height="230px">
                 </div>
-                <h2>Latinidades</h2>
-                <p>Somos uma plataforma educacional, no formato REA, então você pode usar todo e qualquer conteúdo desse site para fins educativos, além de também colaborar para o crescimento do site, publicando ou editando artigos.</p>
-                <a href="#" class="btn sec2__mais borda borda">Saiba mais<span>
-                </a>
+
+                <h2 class="f1-pq">Latinidades</h2>
+                <p class="f2-pq">Somos uma plataforma educacional, no formato REA, então você pode usar todo e qualquer conteúdo desse site para fins educativos, além de também colaborar para o crescimento do site, publicando ou editando artigos.</p>
+                <a href="#" class="btn sec2__mais borda f2-md">Saiba mais</a>
             </div>
             <div class="sec2__item">
                 <div class="sec2__img">
                     <img src="./assets/img/conteudo/estudantes.jpg" alt="Estudantes felizes compartilhando saberes" width="300px" height="230px">
                 </div>
-                <h2>REA's</h2>
-                <p>Recursos Educacionais Abertos são materiais de ensino, de qualquer formato (PDF, vídeo, áudio, etc) que são de domínio público, qualquer pessoa pode usar, editar, compartilhar, desde que dê os devidos créditos.</p>
-                <a href="#" class="btn sec2__mais borda">Saiba mais<span>
-                </a>
+                <h2 class="f1-pq">REA's</h2>
+                <p class="f2-pq">Recursos Educacionais Abertos são materiais de ensino, de qualquer formato (PDF, vídeo, áudio, etc) que são de domínio público, qualquer pessoa pode usar, editar, compartilhar, desde que dê os devidos créditos.</p>
+                <a href="#" class="btn sec2__mais borda f2-md">Saiba mais</a>
             </div>
             <div class="sec2__item">
                 <div class="sec2__img">
                     <img src="./assets/img/conteudo/fundo.jpg" alt="Uma barraca de produtos típicos dos Andes" width="300px" height="230px">
                 </div>
-                <h2>Objetivo Final</h2>
-                <p>Com o Latinidades pretendo não apenas concluir o mestrado e entregar um bom TCM, meu objetivo é seguir com o projeto para que um dia faça parte do cotidiano de alunos e professores pesquisar conteúdos e ter o Latinidades como fonte segura.</p>
-                <a href="#" class="btn sec2__mais borda">Saiba mais<span>
-                </a>
+                <h2 class="f1-pq">Objetivo Final</h2>
+                <p class="f2-pq">Com o Latinidades pretendo não apenas concluir o mestrado e entregar um bom TCM, meu objetivo é seguir com o projeto para que um dia faça parte do cotidiano de alunos e professores pesquisar conteúdos e ter o Latinidades como fonte segura.</p>
+                <a href="#" class="btn sec2__mais borda f2-md">Saiba mais</a>
             </div>
         </div>
     </section>
 
     <section aria-label="Quem faz o projeto" class="sec3" id="secao3">
-        <h2>Quem somos</h2>
+        <h2 class="f1-gr deg-base">QUEM SOMOS</h2>
         <div class="sec3__perfil"></div>
         <div class="sec3__box">
-            <p>
-                Me chamo Ygor Gabriel Combi, tenho 23 anos, sou mestrando em História pela Universidade Federal do Rio Grande (FURG).
+            <p class="f2-md">
+                &emsp;<strong>Olá!</strong><br><br> &emsp;Me chamo Ygor Gabriel Combi, tenho 23 anos, sou mestrando em História pela Universidade Federal do Rio Grande (FURG).
                 <br><br>
-                Durante minha vida tive o privilégio de conhecer diversas partes do país, nasci em Minas, cresci em São Paulo e minha formação acadêmica foi no Rio Grande do Sul, graças a isso percebi as diferentes variações linguísticas e culturais,
+                &emsp;Durante minha vida tive o privilégio de conhecer diversas partes do país, nasci em Minas, cresci em São Paulo e minha formação acadêmica foi no Rio Grande do Sul, graças a isso percebi as diferentes variações linguísticas e culturais, devido a estas variações as formas de ensinar/aprender também se alteram. Buscando criar uma rede de compartilhamento de saberes, surgiu o <strong>Projeto Latinidadades.</strong>
                 <br><br>
-                Idealizei o site durante a elaboração do projeto para ingressar no mestrado, crei
+                &emsp;Idealizei o site durante a elaboração do projeto para ingressar no mestrado, meu maior objetivo com ele é ser referência para estudantes, professores e interessados em América Latina
             </p>
         </div>
     </section>
 
-    <section aria-label="Explicação mais detalhada sobre como funciona os artigos e o podcast" class="sec4">
+    <section aria-label="Explicação mais detalhada sobre como funciona os artigos e o podcast" class="sec4 f2-md">
         <div class="sec4__box" id="caixa-art-pod">
             <div class="sec4__artigos">
-                <h2>Artigos</h2>
+                <h2 class="f1-md">Artigos</h2>
                 <img src="./assets/icons/divisor.svg" alt="Divisória" width="350px" height="50px">
                 <ul>
                     <li>
@@ -126,11 +127,11 @@
                     </li>
                 </ul>
                 <p>Comece agora mesmo a ler nossos artigos</p>
-                <a href="#">LEIA AGORA</a>
+                <a href="artigos" class="btn">Leia agora</a>
 
             </div>
             <div class="sec4__podcast">
-                <h2>Podcast</h2>
+                <h2 class="f1-md">Podcast</h2>
                 <img src="./assets/icons/divisor.svg" alt="Divisória" width="350px" height="50px">
                 <ul>
                     <li>
@@ -149,14 +150,14 @@
                 <p>Ouça na sua plataforma favorita!</p>
                 <div class="sec4__plataformas">
                     <ul>
-                        <li class="sec4__plataformasFC">
-                            <a href="#"><span class="icon-facebook"></span></a>
+                        <li>
+                            <a href="https://www.facebook.com/"><span class="icon-facebook"></span></a>
                         </li>
                         <li>
-                            <a href="#"><span class="icon-youtube2"></span></a>
+                            <a href="https://www.youtube.com/"><span class="icon-youtube2"></span></a>
                         </li>
                         <li>
-                            <a href="#"><span class="icon-soundcloud"></span></a>
+                            <a href="https://soundcloud.com/"><span class="icon-soundcloud"></span></a>
                         </li>
                     </ul>
                 </div>
@@ -175,22 +176,22 @@
             <p id="footer__subtit">SIGA-NOS</p>
             <ul>
                 <li>
-                    <a href=""><span class="icon-facebook sociais-artigo"></span></a>
+                    <a href="fb.com"><span class="icon-facebook sociais-artigo"></span></a>
                 </li>
                 <li>
-                    <a href=""><span class="icon-instagram sociais-artigo"></span></a>
+                    <a href="intagram.com"><span class="icon-instagram sociais-artigo"></span></a>
                 </li>
                 <li>
-                    <a href=""><span class="icon-telegram sociais-artigo"></span></a>
+                    <a href="https://t.me/projetolatinidades"><span class="icon-telegram sociais-artigo"></span></a>
                 </li>
                 <li>
-                    <a href=""><span class="icon-twitter sociais-artigo"></span></a>
+                    <a href="twitter.com"><span class="icon-twitter sociais-artigo"></span></a>
                 </li>
                 <li>
-                    <a href=""><span class="icon-youtube sociais-artigo"></span></a>
+                    <a href="youtube.com"><span class="icon-youtube sociais-artigo"></span></a>
                 </li>
                 <li>
-                    <a href=""><span class="icon-soundcloud sociais-artigo"></span></a>
+                    <a href="soundcloud.com"><span class="icon-soundcloud sociais-artigo"></span></a>
                 </li>
             </ul>
 

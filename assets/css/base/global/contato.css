@@ -1,0 +1,125 @@
+.contact__base {
+  font-family: var(--candara);
+  background-color: #f8f3ee;
+  border-radius: 5px;
+  box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+  position: absolute;
+  top: 5rem;
+}
+
+.contact__form {
+  margin: 0rem 10%;
+  width: 25%;
+}
+
+.contact__form-desc p {
+  font-size: 0.8rem;
+  margin-bottom: 0.5rem;
+  color: #7b7c7d;
+}
+
+.form__titulo {
+  font-size: 1.5rem !important;
+  color: var(--cinza-escuro) !important;
+}
+
+.formulario__box {
+  position: relative;
+  margin-top: 0.25rem;
+}
+
+.formulario__box input {
+  background: none;
+  border: none;
+  border-bottom: 1.5px solid var(--vinho-claro);
+  outline: none;
+  font-family: var(--candara);
+  width: 95%;
+}
+
+.formulario__label {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  pointer-events: none;
+  transition: 0.5s;
+  font-size: 0.875rem;
+}
+
+.formulario__box input:focus ~ .formulario__label,
+.formulario__box input:valid ~ .formulario__label {
+  top: -16px;
+  font-size: 12px;
+  color: var(--vinho-claro);
+  font-weight: bold;
+}
+
+.form__checkbox {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 8px;
+  align-items: center;
+  font-size: 0.8rem;
+  color: #7b7c7d;
+}
+
+.form__checkbox label {
+  margin: 0px;
+}
+
+.form__checkbox input {
+  height: 15px;
+  margin: 0px;
+  width: 15px;
+}
+
+.contact__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.contact__grid div {
+  grid-column: 2;
+}
+
+.contact__horarios {
+  margin-left: -5%;
+  width: 20%;
+}
+
+.contact__meios {
+  font-size: 0.8rem;
+  color: #7b7c7d;
+  border-top: 1.5px solid var(--vinho-base);
+}
+
+.contact__meios-t {
+  color: var(--cinza-escuro) !important;
+  font-weight: bold;
+  margin-top: 0.5rem;
+}
+
+#submit {
+  background: linear-gradient(
+    90deg,
+    rgba(108, 48, 48, 1) 0%,
+    rgba(123, 69, 69, 1) 100%
+  );
+  width: 97%;
+  border: none;
+  padding: 10px;
+  color: var(--bege-base);
+  cursor: pointer;
+  margin: 0.5rem auto;
+  border-radius: 5px;
+  font-size: 0.875rem;
+  font-weight: bold;
+}
+#submit:hover {
+  background: linear-gradient(
+    90deg,
+    rgba(101, 42, 42, 1) 0%,
+    rgba(111, 57, 57, 1) 100%
+  );
+}

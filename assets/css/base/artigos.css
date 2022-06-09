@@ -62,7 +62,7 @@
 
 .artigo h1 {
   color: var(--cinza-escuro);
-  font-family: "Bodar";
+  font-family: "Bodar", Arial, Helvetica, sans-serif;
   font-size: 2.5rem;
   line-height: 2.5rem;
 }

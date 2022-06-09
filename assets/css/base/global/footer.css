@@ -49,6 +49,7 @@ footer {
 .sociais-artigo:hover {
   background-color: var(--bege-base);
   color: var(--vinho-claro);
+  border-radius: 5px;
 }
 
 .footer__sociais-list ul {
